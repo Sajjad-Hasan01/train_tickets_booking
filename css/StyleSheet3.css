@@ -1,0 +1,67 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Droid Sans Arabic';
+    padding: 0;
+}
+
+h1 {
+    border-bottom: 3px #2176c7 solid;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 10px 30px 100px;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.view-ticket-card {
+    background: #ddd;
+    text-align: center;
+    width: 30%;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.view-image{
+    width:70%;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: 'Droid Sans Arabic';
+    font-weight: bold;
+    margin: 40px 10px 0;
+}
+
+.download-btn {
+    background: #1365d8;
+    border: none;
+    color: white;
+}
+
+.logout-btn {
+    background: white;
+    border: 1px #2176c7 solid;
+    color: #1365d8;
+}
+
+.btn:hover {
+    filter: brightness(0.9);
+}
+
+footer {
+    padding: 10px 30px;
+    border-top: 3px #2176c7 solid;
+}
